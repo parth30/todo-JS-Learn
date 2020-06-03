@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="controls">
+            <h1>"My Awesome TODO"</h1>
+            <input type="text" id="input"><br>
+            <input type="radio" name="Priority" id="Priority" > <label  class="Priority_t">High</label>
+            <input type="radio" name="Priority" id="Priority" checked > <label  class="Priority_t">Medium</label>
+            <input type="radio" name="Priority" id="Priority"> <label  class="Priority_t">Low</label>
+            <button type="button" id="add">ADD TODO</button>  
+            <button type="button" id="remove">Remove TODO</button>  
+        </div>
+        <ul id="list">
+            <!-- <li class="mycheck"><input type="checkbox"  checked> <label>Go To Gym</label></li>
+            <li class="mycheck"><input type="checkbox" checked><label>Study</label></li> -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
